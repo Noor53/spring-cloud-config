@@ -1,0 +1,12 @@
+app: 
+  name: spring-cloud-config
+
+
+my:
+  greeting: Hello-World
+  list:
+      values: one,two,three
+      
+management.endpoint.web.exposure.include: *
+
+spring.application.name: spring-boot-config
